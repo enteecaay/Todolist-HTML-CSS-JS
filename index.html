@@ -8,53 +8,62 @@
   <body>
     <div class="main-container">
       <div class="header">
-        <div class="avatar">
-          <img
-            id="avatar-link"
-            src="./assets/avatar.png"
-            alt=""
-            width="200"
-            height="320"
-          />
-        </div>
-        <h1 id="intro">Hello Kiệt!</h1>
-      </div>
       <div class="clock">
-        <div id="clock"></div>
+        <h5>Dark mode</h5>
         <label class="switch">
           <input type="checkbox" />
           <span class="slider round"></span>
         </label>
       </div>
-      <div>
-        <h1>To do list</h1>
-      </div>
 
-      <div class="button-group"></div>
-    </div>
-    <div id="modal" class="modal">
-      <div>
-        <span class="close">x</span>
-        <form
-          style="background-color: white"
-          style="display: flex; flex-direction: column"
-        >
-          <h1>User Info</h1>
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" />
-          </div>
-          <div>
-            <label for="img">Avatar Link:</label>
-            <input type="text" id="img" name="image" />
-          </div>
-          <input type="submit" value="Submit" />
-        </form>
+      <div class="todo-list">
+        <div class="todo">
+          <h1>TO DO LIST</h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z"
+            />
+          </svg>
+        </div>
+        <div class="add-job">
+          <input
+            type="text"
+            name=""
+            id="input-todo"
+            placeholder="Add new job"
+          />
+          <button class="btn-icon">ADD</button>
+        </div>
+        <ul class="job-list">
+          <h1>Job List</h1>
+        </ul>
       </div>
     </div>
+    <footer>
+      <div>
+        <p>This is a simple to-do list web using HTML, CSS, and JavaScript.</p>
+        <a
+          href="https://github.com/enteecaay/Todolist-HTML-CSS-JS"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub Repository
+        </a>
+        <div class="author">
+          <p class="author">@enteecaay</p>
+        </div>
+      </div>
+    </footer>
   </body>
-  <script src="script.js">
-    document.getElementById("intro").innerHTML = "Hello Kiệt!";
-    document.getElementById("avatar-link").src = "./assets/avatar.png";
-  </script>
+  <!-- JavaScript -->
+  <script src="script.js"></script>
 </html>
