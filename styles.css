@@ -30,18 +30,6 @@ body {
   justify-content: center;
   margin-bottom: 20px;
 }
-.avatar {
-  border-radius: 9999px;
-  overflow: hidden;
-  width: 150;
-  height: 150;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50;
-  border: 4px #003cff solid;
-  margin-right: 20;
-}
 
 .todo-list {
   position: relative;
@@ -328,24 +316,6 @@ h4 {
 .job-dark-mode {
   background-color: #000;
   color: white;
-}
-
-.clock {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25;
-  font-weight: bold;
-  position: absolute;
-  top: 10;
-  right: 0;
-  padding-left: 20;
-  padding-top: 5;
-  padding-bottom: 5;
-  background-color: #ff00b3;
-  border: 2px #003cff solid;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
 }
 
 .switch {
