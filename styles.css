@@ -147,6 +147,7 @@ h4 {
   display: flex;
   border-radius: 20px;
   font-size: 18;
+  font-weight: semi-bold;
   justify-content: center;
   background-color: #98adf5;
   border: none;
